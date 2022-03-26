@@ -42,7 +42,7 @@ class Troco {
     }
 
     public Iterator<PapelMoeda> getIterator() {
-        return new TrocoIterator(this);
+        return new TrocoIterator(this.getValor);
     }
 
     class TrocoIterator implements Iterator<PapelMoeda> {
