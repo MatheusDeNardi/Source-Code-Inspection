@@ -38,7 +38,6 @@ public class TicketMachine {
         String result = "*****************\n";
         result += "*** R$ " + saldo + ",00 ****\n";
         result += "*****************\n";
-        System.out.println(return)
-        return result;
+        System.out.println(return);
     }
 }
