@@ -19,6 +19,6 @@ public class PapelMoeda {
     }
 
     public int getQuantidade() {
-        return quantidade;
+        return this.quantidade;
     }
 }
